@@ -1,0 +1,147 @@
+{
+  "obras_detalhadas": [
+    {
+      "id": "homo-ludens",
+      "titulo": "Homo Ludens",
+      "titulo_completo": "Homo Ludens: O jogo como elemento da cultura",
+      "autor": "Johan Huizinga",
+      "ano": 1938,
+      "idioma": "Múltiplos (traduzido)",
+      "categorias": ["Fundamentos Teóricos", "Aspectos Culturais e Sociais"],
+      "resumo_completo": "Publicado em 1938, 'Homo Ludens' é uma obra seminal que propõe a ideia de que os jogos não são apenas produtos para entretenimento, mas fazem parte fundamental da forma como raciocinamos. Huizinga argumenta que a cultura em si carrega um caráter de jogo, e que o pensamento lúdico seria fundamental para a humanidade - daí o termo 'Homo Ludens' (homem que joga), em contraste com 'Homo Sapiens' (homem que sabe). O livro explora como as dinâmicas lúdicas fazem parte da consciência humana e como isso se manifesta em diversos aspectos da cultura, desde a filosofia até a guerra, passando pelos mitos, poesia e jurisprudência. Huizinga define jogo como uma atividade em que o indivíduo tem consciência e aceita as regras da dinâmica, sendo esta obrigatoriamente algo diferente da vida cotidiana.",
+      "contribuicoes": [
+        "Estabeleceu o jogo como objeto de estudo acadêmico",
+        "Propôs a ideia do elemento lúdico como parte fundamental da cultura humana",
+        "Forneceu uma das primeiras definições formais de jogo",
+        "Influenciou gerações de pesquisadores em diversas áreas"
+      ],
+      "criticas": [
+        "Definição restrita de jogos que exclui muitas atividades hoje consideradas jogos",
+        "Argumentação baseada em hipóteses frágeis e algumas crenças pessoais errôneas",
+        "Falta de diálogo com outras áreas do conhecimento como as ciências exatas e biológicas"
+      ]
+    },
+    {
+      "id": "jogos-homens",
+      "titulo": "Os Jogos e os Homens",
+      "titulo_completo": "Os Jogos e os Homens: A Máscara e a Vertigem",
+      "autor": "Roger Caillois",
+      "ano": 1958,
+      "idioma": "Português/Francês",
+      "categorias": ["Fundamentos Teóricos", "Aspectos Culturais e Sociais"],
+      "resumo_completo": "Publicado em 1958, 'Os Jogos e os Homens' (Les Jeux et les Hommes) é um estudo sociológico sobre jogos que define e classifica suas diferentes manifestações. Roger Caillois utiliza como ponto de partida a obra de Johan Huizinga, 'Homo Ludens', mas enquanto Huizinga estudou os jogos através de uma lente antropológica, focando em como eles constroem a civilização e a cultura, Caillois adota uma perspectiva sociológica, analisando as diferentes formas nas quais o jogo se manifesta e como estas afetam e são afetadas pelas pessoas. Caillois define o jogo como uma atividade livre, delimitada, incerta, improdutiva, regulamentada e fictícia. Ele propõe uma classificação dos jogos em quatro categorias principais: Agôn (competição), Alea (sorte), Mimicry (simulação) e Ilinx (vertigem), além de um espectro entre Paidia (improvisação livre) e Ludus (regras imperativas).",
+      "contribuicoes": [
+        "Oferece uma classificação sistemática dos jogos que vai além da visão homogênea de Huizinga",
+        "Propõe categorias que permitem analisar diferentes tipos de jogos e suas funções sociais",
+        "Estabelece um espectro entre jogos livres (paidia) e jogos regrados (ludus)",
+        "Fornece ferramentas conceituais para entender como os jogos refletem e influenciam a sociedade"
+      ],
+      "classificacao": {
+        "categorias": [
+          {
+            "nome": "Agôn (Competição)",
+            "descricao": "Jogos competitivos onde os participantes confrontam-se em igualdade de oportunidades",
+            "exemplos": ["xadrez", "esportes"]
+          },
+          {
+            "nome": "Alea (Sorte)",
+            "descricao": "Jogos baseados no acaso, onde o jogador não tem controle sobre o resultado",
+            "exemplos": ["roleta", "loteria"]
+          },
+          {
+            "nome": "Mimicry (Simulação)",
+            "descricao": "Jogos de imitação e faz-de-conta, onde se assume temporariamente uma personalidade fictícia",
+            "exemplos": ["teatro", "RPG"]
+          },
+          {
+            "nome": "Ilinx (Vertigem)",
+            "descricao": "Jogos que buscam destruir momentaneamente a estabilidade da percepção",
+            "exemplos": ["montanha-russa", "rodopiar"]
+          }
+        ],
+        "espectro": [
+          {
+            "nome": "Paidia",
+            "descricao": "Improvisação livre, diversão espontânea, turbulência"
+          },
+          {
+            "nome": "Ludus",
+            "descricao": "Convenções arbitrárias, regras imperativas, esforço e habilidade"
+          }
+        ]
+      }
+    },
+    {
+      "id": "half-real",
+      "titulo": "Half-Real",
+      "titulo_completo": "Half-Real: Video Games Between Real Rules and Fictional Worlds",
+      "autor": "Jesper Juul",
+      "ano": 2005,
+      "idioma": "Inglês",
+      "categorias": ["Fundamentos Teóricos", "Design e Desenvolvimento"],
+      "resumo_completo": "Publicado em 2005, 'Half-Real' explora os videogames como combinações de conjuntos de regras formais e ficção informal. O título deriva da afirmação de que, enquanto a ficção que envolve um jogo (como xadrez) é aparentemente arbitrária e importa dentro de um círculo imaginário de jogo, as regras em si exercem poder sobre o jogador e a realidade - qualquer jogo é 'meio-real' (half-real). Para Juul, essa interação, mais do que qualquer uma das partes isoladamente, é um aspecto intrigante dos estudos de videogames. O livro examina a tensão em constante evolução entre regras e ficção nos videogames, propondo um 'modelo clássico de jogo' e explorando como os jogos afetam o jogador e o mundo em geral, levando a discussões interessantes sobre tempo e espaço nos jogos.",
+      "estrutura": [
+        {
+          "capitulo": "Introdução",
+          "descricao": "Apresenta a ideia principal de que os jogos são compostos de regras reais e mundos ficcionais, e discute o estado dos estudos de videogames."
+        },
+        {
+          "capitulo": "Videogames e o Modelo Clássico de Jogo",
+          "descricao": "Define o que é um jogo, diferencia jogos de não-jogos e casos limítrofes, e discute a natureza transmidiática dos jogos."
+        },
+        {
+          "capitulo": "Regras",
+          "descricao": "Explora o que são regras, como funcionam nos jogos e como se combinam para formar desafios. Introduz conceitos importantes como jogos de progressão versus jogos de emergência, e discute o conceito de gameplay."
+        },
+        {
+          "capitulo": "Ficção",
+          "descricao": "Examina os mundos ficcionais dos videogames, como são incompletos e como os jogadores preenchem as lacunas."
+        },
+        {
+          "capitulo": "Regras e Ficção",
+          "descricao": "Analisa a interação entre regras e ficção nos videogames."
+        },
+        {
+          "capitulo": "Conclusões",
+          "descricao": "Sintetiza as ideias apresentadas e discute suas implicações para o estudo dos videogames."
+        }
+      ],
+      "contribuicoes": [
+        "Propõe uma teoria coerente que integra regras e ficção nos videogames",
+        "Introduz conceitos importantes como jogos de emergência versus jogos de progressão",
+        "Oferece um modelo para analisar a interação entre regras e ficção",
+        "Contribui para o debate entre ludologia e narratologia nos estudos de jogos"
+      ]
+    },
+    {
+      "id": "persuasive-games",
+      "titulo": "Persuasive Games",
+      "titulo_completo": "Persuasive Games: The Expressive Power of Videogames",
+      "autor": "Ian Bogost",
+      "ano": 2007,
+      "idioma": "Inglês",
+      "categorias": ["Estudos Críticos", "Aplicações Práticas"],
+      "resumo_completo": "Publicado em 2007, 'Persuasive Games' examina como os videogames constroem argumentos e influenciam os jogadores. Bogost analisa a função única da retórica no software em geral e nos videogames em particular, baseando-se na história de 2.500 anos da retórica, o estudo da expressão persuasiva. O autor argumenta que os videogames, graças ao seu modo básico de representação procedimental (representações e interações baseadas em regras), abrem um novo domínio para a persuasão, realizando uma nova forma de retórica que ele chama de 'retórica procedimental'. Esta é uma forma de retórica vinculada às principais affordances dos computadores: executar processos e realizar manipulação simbólica baseada em regras. Bogost defende que os videogames têm um poder persuasivo único que vai além de outras formas de persuasão computacional. Eles não apenas podem apoiar posições sociais e culturais existentes, mas também podem interromper e mudar essas posições, levando a mudanças sociais potencialmente significativas a longo prazo.",
+      "estrutura": [
+        {
+          "secao": "Política",
+          "descricao": "Explora como os jogos podem representar processos políticos, enquadramentos ideológicos, e questões de história e democracia."
+        },
+        {
+          "secao": "Publicidade",
+          "descricao": "Analisa a lógica da publicidade em jogos, licenciamento e product placement, e advergames (jogos criados especificamente para publicidade)."
+        },
+        {
+          "secao": "Aprendizagem",
+          "descricao": "Discute a alfabetização procedimental, valores e aspirações, exercício, e os propósitos da persuasão no contexto educacional."
+        }
+      ],
+      "contribuicoes": [
+        "Introduz o conceito de 'retórica procedimental' como uma nova forma de persuasão única aos meios computacionais",
+        "Analisa como os jogos podem ser usados para argumentação em diversos contextos",
+        "Expande a compreensão dos jogos além do entretenimento, como ferramentas para mudança social e política",
+        "Estabelece uma ponte entre a retórica clássica e os meios digitais contemporâneos"
+      ]
+    }
+  ]
+}

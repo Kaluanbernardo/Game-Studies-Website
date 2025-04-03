@@ -1,0 +1,338 @@
+/* Estilos específicos para a página do mapa de relações */
+.page-header {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.page-header h1 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.map-section {
+    background-color: white;
+    padding: 3rem 0;
+}
+
+.map-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.filter-group {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.filter-group label {
+    font-weight: 500;
+}
+
+.filter-group select {
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    background-color: white;
+    font-family: var(--font-main);
+}
+
+.view-controls {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.map-container {
+    width: 100%;
+    height: 600px;
+    background-color: var(--gray-color);
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+    position: relative;
+}
+
+.map-legend {
+    background-color: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: var(--shadow);
+    margin-bottom: 2rem;
+}
+
+.map-legend h3 {
+    margin-bottom: 1rem;
+    color: var(--dark-color);
+}
+
+.map-legend ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.map-legend li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.legend-color {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.legend-line {
+    display: inline-block;
+    width: 30px;
+    height: 3px;
+}
+
+.map-details {
+    background-color: var(--gray-color);
+    padding: 4rem 0;
+}
+
+.map-details h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.map-details > .container > p {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+}
+
+.details-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.details-item {
+    background-color: white;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: var(--shadow);
+}
+
+.details-item h3 {
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+}
+
+.details-item ul {
+    padding-left: 1.5rem;
+}
+
+.details-item li {
+    margin-bottom: 0.5rem;
+}
+
+.timeline {
+    background-color: white;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: var(--shadow);
+}
+
+.timeline h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--primary-color);
+}
+
+.timeline-container {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.timeline-container::before {
+    content: '';
+    position: absolute;
+    width: 4px;
+    background-color: var(--primary-color);
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.timeline-item {
+    padding: 1rem 0;
+    position: relative;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.timeline-item:nth-child(odd) {
+    left: 0;
+    padding-right: 40px;
+}
+
+.timeline-item:nth-child(even) {
+    left: 50%;
+    padding-left: 40px;
+}
+
+.timeline-item::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 4px solid var(--primary-color);
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.timeline-item:nth-child(odd)::after {
+    right: -10px;
+}
+
+.timeline-item:nth-child(even)::after {
+    left: -10px;
+}
+
+.timeline-date {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.timeline-item:nth-child(odd) .timeline-date {
+    right: -70px;
+}
+
+.timeline-item:nth-child(even) .timeline-date {
+    left: -70px;
+}
+
+.timeline-content {
+    padding: 1rem;
+    background-color: var(--gray-color);
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+}
+
+.timeline-content h4 {
+    margin-bottom: 0.5rem;
+    color: var(--dark-color);
+}
+
+.timeline-content p {
+    color: var(--secondary-color);
+    font-size: 0.9rem;
+}
+
+/* Estilos para os nós e links do gráfico D3.js */
+.node {
+    cursor: pointer;
+}
+
+.node circle {
+    fill: var(--primary-color);
+    stroke: white;
+    stroke-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.node:hover circle {
+    fill: var(--accent-color);
+}
+
+.node text {
+    font-family: var(--font-main);
+    font-size: 12px;
+    fill: var(--dark-color);
+    text-anchor: middle;
+    pointer-events: none;
+}
+
+.link {
+    stroke-width: 2px;
+    stroke-opacity: 0.6;
+    transition: all 0.3s ease;
+}
+
+.link:hover {
+    stroke-opacity: 1;
+    stroke-width: 3px;
+}
+
+.link-label {
+    font-family: var(--font-main);
+    font-size: 10px;
+    fill: var(--dark-color);
+    text-anchor: middle;
+    pointer-events: none;
+    background-color: white;
+    padding: 2px;
+}
+
+/* Responsividade para o mapa */
+@media (max-width: 768px) {
+    .map-controls {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .map-container {
+        height: 400px;
+    }
+    
+    .timeline-container::before {
+        left: 20px;
+    }
+    
+    .timeline-item {
+        width: 100%;
+        padding-left: 50px;
+        padding-right: 0;
+    }
+    
+    .timeline-item:nth-child(even) {
+        left: 0;
+    }
+    
+    .timeline-item::after {
+        left: 10px;
+    }
+    
+    .timeline-item:nth-child(odd)::after {
+        right: auto;
+        left: 10px;
+    }
+    
+    .timeline-date {
+        position: relative;
+        top: auto;
+        transform: none;
+        margin-bottom: 0.5rem;
+        display: inline-block;
+    }
+    
+    .timeline-item:nth-child(odd) .timeline-date,
+    .timeline-item:nth-child(even) .timeline-date {
+        right: auto;
+        left: auto;
+    }
+}

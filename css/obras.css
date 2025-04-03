@@ -1,0 +1,267 @@
+/* Estilos específicos para a página de obras */
+.page-header {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.page-header h1 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.obras-section {
+    background-color: white;
+    padding: 3rem 0;
+}
+
+.obras-filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+    background-color: var(--gray-color);
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.filter-group {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.filter-group label {
+    font-weight: 500;
+}
+
+.filter-group select {
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    background-color: white;
+    font-family: var(--font-main);
+}
+
+.obras-list {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.obra-item {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    border-left: 5px solid var(--primary-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.obra-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.obra-header {
+    padding: 2rem;
+    background-color: var(--gray-color);
+    border-bottom: 1px solid #ddd;
+}
+
+.obra-header h2 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.obra-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.obra-meta span {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.9rem;
+    color: var(--dark-color);
+}
+
+.obra-meta .autor::before {
+    content: '\f007';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    margin-right: 0.5rem;
+    color: var(--secondary-color);
+}
+
+.obra-meta .ano::before {
+    content: '\f073';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    margin-right: 0.5rem;
+    color: var(--secondary-color);
+}
+
+.obra-meta .idioma::before {
+    content: '\f1ab';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    margin-right: 0.5rem;
+    color: var(--secondary-color);
+}
+
+.obra-categorias {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.obra-categorias .categoria {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+}
+
+.obra-content {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.obra-resumo, .obra-contribuicoes, .obra-criticas, .obra-conexoes, .obra-classificacao, .obra-estrutura {
+    margin-bottom: 2rem;
+}
+
+.obra-resumo h3, .obra-contribuicoes h3, .obra-criticas h3, .obra-conexoes h3, .obra-classificacao h3, .obra-estrutura h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.obra-resumo h3::after, .obra-contribuicoes h3::after, .obra-criticas h3::after, .obra-conexoes h3::after, .obra-classificacao h3::after, .obra-estrutura h3::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background-color: var(--accent-color);
+    bottom: -0.5rem;
+    left: 0;
+}
+
+.obra-resumo p {
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+.obra-contribuicoes ul, .obra-criticas ul {
+    padding-left: 1.5rem;
+}
+
+.obra-contribuicoes li, .obra-criticas li {
+    margin-bottom: 0.5rem;
+}
+
+.classificacao-grid, .estrutura-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.classificacao-item, .estrutura-item {
+    background-color: var(--gray-color);
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.classificacao-item h4, .estrutura-item h4 {
+    color: var(--secondary-color);
+    margin-bottom: 0.8rem;
+}
+
+.classificacao-item p, .estrutura-item p {
+    font-size: 0.9rem;
+}
+
+.obra-conexoes {
+    background-color: var(--gray-color);
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .obras-filters {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .obra-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .obra-meta {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+
+/* Animações */
+.obra-item {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.6s ease forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.obra-item:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.obra-item:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.obra-item:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+.obra-item:nth-child(4) {
+    animation-delay: 0.4s;
+}
+
+/* Acessibilidade */
+.obra-item:focus-within {
+    outline: 2px solid var(--accent-color);
+}
+
+/* Tema escuro (para futura implementação) */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --primary-color-dark: #3a5a8c;
+        --secondary-color-dark: #574a68;
+        --accent-color-dark: #e05d6f;
+        --dark-color-dark: #1a2530;
+        --light-color-dark: #2c3e50;
+        --gray-color-dark: #374151;
+        --text-color-dark: #e0e0e0;
+    }
+}

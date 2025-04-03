@@ -1,0 +1,43 @@
+[
+  {
+    "id": "homo-ludens",
+    "titulo": "Homo Ludens",
+    "autor": "Johan Huizinga",
+    "ano": 1938,
+    "conexoes": [
+      {"para": "jogos-homens", "tipo": "influenciou", "descricao": "Serviu como base para a teoria de Caillois"},
+      {"para": "half-real", "tipo": "conceitual", "descricao": "Conceitos de círculo mágico e regras"}
+    ]
+  },
+  {
+    "id": "jogos-homens",
+    "titulo": "Os Jogos e os Homens",
+    "autor": "Roger Caillois",
+    "ano": 1958,
+    "conexoes": [
+      {"para": "homo-ludens", "tipo": "resposta", "descricao": "Expandiu e criticou a teoria de Huizinga"},
+      {"para": "half-real", "tipo": "conceitual", "descricao": "Classificação de jogos influenciou análise de regras"}
+    ]
+  },
+  {
+    "id": "half-real",
+    "titulo": "Half-Real",
+    "autor": "Jesper Juul",
+    "ano": 2005,
+    "conexoes": [
+      {"para": "homo-ludens", "tipo": "referencia", "descricao": "Utiliza conceitos de Huizinga"},
+      {"para": "jogos-homens", "tipo": "referencia", "descricao": "Incorpora classificação de Caillois"},
+      {"para": "persuasive-games", "tipo": "contemporaneo", "descricao": "Abordagens complementares sobre videogames"}
+    ]
+  },
+  {
+    "id": "persuasive-games",
+    "titulo": "Persuasive Games",
+    "autor": "Ian Bogost",
+    "ano": 2007,
+    "conexoes": [
+      {"para": "half-real", "tipo": "contemporaneo", "descricao": "Perspectivas complementares sobre videogames"},
+      {"para": "homo-ludens", "tipo": "conceitual", "descricao": "Expande noção de jogo para além do entretenimento"}
+    ]
+  }
+]

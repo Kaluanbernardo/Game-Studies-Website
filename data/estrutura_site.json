@@ -1,0 +1,221 @@
+{
+  "site": {
+    "titulo": "Game Studies Hub",
+    "descricao": "Portal de referência para estudos de jogos, reunindo as principais leituras acadêmicas em português e inglês",
+    "secoes": [
+      {
+        "id": "home",
+        "titulo": "Início",
+        "descricao": "Página inicial com visão geral do campo de Game Studies e navegação para as principais seções"
+      },
+      {
+        "id": "categorias",
+        "titulo": "Categorias Temáticas",
+        "descricao": "Organização das leituras por temas e áreas de estudo",
+        "subcategorias": [
+          {
+            "id": "fundamentos",
+            "titulo": "Fundamentos Teóricos",
+            "descricao": "Obras que estabelecem as bases teóricas do campo",
+            "temas": [
+              "Ludologia vs. Narratologia",
+              "Ontologia dos Jogos",
+              "História dos Jogos",
+              "Definições e Conceitos Básicos",
+              "Metodologias de Pesquisa em Game Studies"
+            ]
+          },
+          {
+            "id": "cultural",
+            "titulo": "Aspectos Culturais e Sociais",
+            "descricao": "Estudos sobre jogos como expressão cultural e fenômeno social",
+            "temas": [
+              "Jogos como Expressão Cultural",
+              "Comunidades de Jogadores",
+              "Identidade e Representação",
+              "Jogos e Sociedade",
+              "Etnografia Virtual e Mundos Digitais"
+            ]
+          },
+          {
+            "id": "design",
+            "titulo": "Design e Desenvolvimento",
+            "descricao": "Abordagens sobre criação e desenvolvimento de jogos",
+            "temas": [
+              "Game Design",
+              "Mecânicas de Jogo",
+              "Narrativas Interativas",
+              "Experiência do Usuário",
+              "Processos de Desenvolvimento"
+            ]
+          },
+          {
+            "id": "criticos",
+            "titulo": "Estudos Críticos",
+            "descricao": "Análises críticas e perspectivas teóricas sobre jogos",
+            "temas": [
+              "Estudos Feministas em Jogos",
+              "Raça e Etnia em Jogos",
+              "Estudos LGBTQ+ em Jogos",
+              "Acessibilidade em Jogos",
+              "Capitalismo e Política em Jogos"
+            ]
+          },
+          {
+            "id": "aplicacoes",
+            "titulo": "Aplicações Práticas",
+            "descricao": "Usos de jogos em contextos além do entretenimento",
+            "temas": [
+              "Jogos Sérios",
+              "Gamificação",
+              "Jogos Educacionais",
+              "Jogos para Saúde",
+              "Simulações"
+            ]
+          },
+          {
+            "id": "tecnologia",
+            "titulo": "Tecnologia e Inovação",
+            "descricao": "Avanços tecnológicos e inovações no campo dos jogos",
+            "temas": [
+              "Realidade Virtual e Aumentada",
+              "Inteligência Artificial em Jogos",
+              "Novas Interfaces",
+              "Preservação de Jogos",
+              "Tendências Emergentes"
+            ]
+          },
+          {
+            "id": "interdisciplinar",
+            "titulo": "Estudos Interdisciplinares",
+            "descricao": "Conexões entre jogos e outras disciplinas acadêmicas",
+            "temas": [
+              "Jogos e Psicologia",
+              "Jogos e Antropologia",
+              "Jogos e Comunicação",
+              "Jogos e Filosofia",
+              "Jogos e Artes"
+            ]
+          },
+          {
+            "id": "industria",
+            "titulo": "Indústria e Economia",
+            "descricao": "Aspectos econômicos e industriais dos jogos",
+            "temas": [
+              "Modelos de Negócio",
+              "Produção Independente",
+              "Globalização da Indústria",
+              "Trabalho e Produção",
+              "Economia Virtual"
+            ]
+          },
+          {
+            "id": "jogadores",
+            "titulo": "Jogadores e Práticas",
+            "descricao": "Estudos sobre comportamento e práticas dos jogadores",
+            "temas": [
+              "Comportamento do Jogador",
+              "E-Sports e Competições",
+              "Modding e Criação de Conteúdo",
+              "Streaming e Cultura de Espectador",
+              "Comunidades Online"
+            ]
+          },
+          {
+            "id": "regional",
+            "titulo": "Perspectivas Regionais",
+            "descricao": "Estudos de jogos em diferentes regiões e contextos culturais",
+            "temas": [
+              "Game Studies no Brasil",
+              "Game Studies na América Latina",
+              "Game Studies na Europa",
+              "Game Studies na América do Norte",
+              "Game Studies na Ásia"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "obras",
+        "titulo": "Obras Fundamentais",
+        "descricao": "Livros e publicações essenciais para o campo de Game Studies",
+        "obras": [
+          {
+            "id": "homo-ludens",
+            "titulo": "Homo Ludens",
+            "autor": "Johan Huizinga",
+            "ano": 1938,
+            "idioma": "Múltiplos (traduzido)",
+            "categorias": ["Fundamentos Teóricos", "Aspectos Culturais e Sociais"],
+            "resumo_curto": "Obra seminal que propõe a ideia de que os jogos não são apenas produtos para entretenimento, mas fazem parte fundamental da forma como raciocinamos e da cultura humana."
+          },
+          {
+            "id": "jogos-homens",
+            "titulo": "Os Jogos e os Homens: A Máscara e a Vertigem",
+            "autor": "Roger Caillois",
+            "ano": 1958,
+            "idioma": "Português/Francês",
+            "categorias": ["Fundamentos Teóricos", "Aspectos Culturais e Sociais"],
+            "resumo_curto": "Estudo sociológico que classifica os jogos em quatro categorias (agôn, alea, mimicry, ilinx) e propõe um espectro entre jogos livres (paidia) e jogos regrados (ludus)."
+          },
+          {
+            "id": "half-real",
+            "titulo": "Half-Real: Video Games Between Real Rules and Fictional Worlds",
+            "autor": "Jesper Juul",
+            "ano": 2005,
+            "idioma": "Inglês",
+            "categorias": ["Fundamentos Teóricos", "Design e Desenvolvimento"],
+            "resumo_curto": "Explora os videogames como combinações de conjuntos de regras formais e ficção informal, examinando a tensão entre esses elementos."
+          },
+          {
+            "id": "persuasive-games",
+            "titulo": "Persuasive Games: The Expressive Power of Videogames",
+            "autor": "Ian Bogost",
+            "ano": 2007,
+            "idioma": "Inglês",
+            "categorias": ["Estudos Críticos", "Aplicações Práticas"],
+            "resumo_curto": "Examina como os videogames constroem argumentos e influenciam os jogadores através da 'retórica procedimental', uma forma de persuasão única aos meios computacionais."
+          }
+        ]
+      },
+      {
+        "id": "periodicos",
+        "titulo": "Periódicos Acadêmicos",
+        "descricao": "Revistas científicas dedicadas ao estudo de jogos",
+        "periodicos": [
+          {
+            "id": "game-studies",
+            "titulo": "Game Studies",
+            "url": "http://gamestudies.org/",
+            "idioma": "Inglês",
+            "descricao": "Primeira revista acadêmica internacional dedicada exclusivamente aos estudos de jogos de computador."
+          },
+          {
+            "id": "games-culture",
+            "titulo": "Games and Culture",
+            "url": "https://journals.sagepub.com/home/gac",
+            "idioma": "Inglês",
+            "descricao": "Revista focada na exploração cultural, social e política dos jogos digitais."
+          },
+          {
+            "id": "sbgames",
+            "titulo": "SBGames",
+            "url": "https://www.sbgames.org/",
+            "idioma": "Português/Inglês",
+            "descricao": "Simpósio Brasileiro de Jogos e Entretenimento Digital, principal evento acadêmico sobre jogos no Brasil."
+          }
+        ]
+      },
+      {
+        "id": "mapa",
+        "titulo": "Mapa de Relações",
+        "descricao": "Visualização das conexões entre diferentes obras e conceitos em Game Studies"
+      },
+      {
+        "id": "recursos",
+        "titulo": "Recursos Adicionais",
+        "descricao": "Links, ferramentas e materiais complementares para estudantes e pesquisadores"
+      }
+    ]
+  }
+}
