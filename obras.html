@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obras Fundamentais - Game Studies Hub</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/obras.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Game Studies Hub</h1>
+                <p>Portal de referência para estudos de jogos</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="categorias.html">Categorias</a></li>
+                    <li><a href="obras.html" class="active">Obras Fundamentais</a></li>
+                    <li><a href="periodicos.html">Periódicos</a></li>
+                    <li><a href="mapa.html">Mapa de Relações</a></li>
+                    <li><a href="recursos.html">Recursos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Obras Fundamentais</h1>
+            <p>Conheça os livros e publicações essenciais para o campo de Game Studies</p>
+        </div>
+    </section>
+
+    <section class="obras-section">
+        <div class="container">
+            <div class="obras-filters">
+                <div class="filter-group">
+                    <label for="filter-categoria">Filtrar por categoria:</label>
+                    <select id="filter-categoria">
+                        <option value="all">Todas as categorias</option>
+                        <option value="Fundamentos Teóricos">Fundamentos Teóricos</option>
+                        <option value="Aspectos Culturais e Sociais">Aspectos Culturais e Sociais</option>
+                        <option value="Design e Desenvolvimento">Design e Desenvolvimento</option>
+                        <option value="Estudos Críticos">Estudos Críticos</option>
+                        <option value="Aplicações Práticas">Aplicações Práticas</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="filter-idioma">Filtrar por idioma:</label>
+                    <select id="filter-idioma">
+                        <option value="all">Todos os idiomas</option>
+                        <option value="Português">Português</option>
+                        <option value="Inglês">Inglês</option>
+                        <option value="Múltiplos">Múltiplos (traduzido)</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="obras-list">
+                <!-- Homo Ludens -->
+                <div class="obra-item" id="homo-ludens">
+                    <div class="obra-header">
+                        <h2>Homo Ludens</h2>
+                        <div class="obra-meta">
+                            <span class="autor">Johan Huizinga</span>
+                            <span class="ano">1938</span>
+                            <span class="idioma">Múltiplos (traduzido)</span>
+                        </div>
+                        <div class="obra-categorias">
+                            <span class="categoria">Fundamentos Teóricos</span>
+                            <span class="categoria">Aspectos Culturais e Sociais</span>
+                        </div>
+                    </div>
+                    <div class="obra-content">
+                        <div class="obra-resumo">
+                            <h3>Resumo</h3>
+                            <p>Publicado em 1938, "Homo Ludens" é uma obra seminal que propõe a ideia de que os jogos não são apenas produtos para entretenimento, mas fazem parte fundamental da forma como raciocinamos. Huizinga argumenta que a cultura em si carrega um caráter de jogo, e que o pensamento lúdico seria fundamental para a humanidade - daí o termo "Homo Ludens" (homem que joga), em contraste com "Homo Sapiens" (homem que sabe).</p>
+                            <p>O livro explora como as dinâmicas lúdicas fazem parte da consciência humana e como isso se manifesta em diversos aspectos da cultura, desde a filosofia até a guerra, passando pelos mitos, poesia e jurisprudência. Huizinga define jogo como uma atividade em que o indivíduo tem consciência e aceita as regras da dinâmica, sendo esta obrigatoriamente algo diferente da vida cotidiana.</p>
+                        </div>
+                        <div class="obra-contribuicoes">
+                            <h3>Contribuições para Game Studies</h3>
+                            <ul>
+                                <li>Estabeleceu o jogo como objeto de estudo acadêmico</li>
+                                <li>Propôs a ideia do elemento lúdico como parte fundamental da cultura humana</li>
+                                <li>Forneceu uma das primeiras definições formais de jogo</li>
+                                <li>Influenciou gerações de pesquisadores em diversas áreas</li>
+                            </ul>
+                        </div>
+                        <div class="obra-criticas">
+                            <h3>Críticas</h3>
+                            <ul>
+                                <li>Definição restrita de jogos que exclui muitas atividades hoje consideradas jogos</li>
+                                <li>Argumentação baseada em hipóteses frágeis e algumas crenças pessoais errôneas</li>
+                                <li>Falta de diálogo com outras áreas do conhecimento como as ciências exatas e biológicas</li>
+                            </ul>
+                        </div>
+                        <div class="obra-conexoes">
+                            <h3>Conexões com outras obras</h3>
+                            <p>Esta obra influenciou diretamente "Os Jogos e os Homens" de Roger Caillois e compartilha conceitos com "Half-Real" de Jesper Juul.</p>
+                            <a href="mapa.html#homo-ludens" class="btn small">Ver no mapa de relações</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Os Jogos e os Homens -->
+                <div class="obra-item" id="jogos-homens">
+                    <div class="obra-header">
+                        <h2>Os Jogos e os Homens: A Máscara e a Vertigem</h2>
+                        <div class="obra-meta">
+                            <span class="autor">Roger Caillois</span>
+                            <span class="ano">1958</span>
+                            <span class="idioma">Português/Francês</span>
+                        </div>
+                        <div class="obra-categorias">
+                            <span class="categoria">Fundamentos Teóricos</span>
+                            <span class="categoria">Aspectos Culturais e Sociais</span>
+                        </div>
+                    </div>
+                    <div class="obra-content">
+                        <div class="obra-resumo">
+                            <h3>Resumo</h3>
+                            <p>Publicado em 1958, "Os Jogos e os Homens" (Les Jeux et les Hommes) é um estudo sociológico sobre jogos que define e classifica suas diferentes manifestações. Roger Caillois utiliza como ponto de partida a obra de Johan Huizinga, "Homo Ludens", mas enquanto Huizinga estudou os jogos através de uma lente antropológica, focando em como eles constroem a civilização e a cultura, Caillois adota uma perspectiva sociológica, analisando as diferentes formas nas quais o jogo se manifesta e como estas afetam e são afetadas pelas pessoas.</p>
+                            <p>Caillois define o jogo como uma atividade livre, delimitada, incerta, improdutiva, regulamentada e fictícia. Ele propõe uma classificação dos jogos em quatro categorias principais: Agôn (competição), Alea (sorte), Mimicry (simulação) e Ilinx (vertigem), além de um espectro entre Paidia (improvisação livre) e Ludus (regras imperativas).</p>
+                        </div>
+                        <div class="obra-contribuicoes">
+                            <h3>Contribuições para Game Studies</h3>
+                            <ul>
+                                <li>Oferece uma classificação sistemática dos jogos que vai além da visão homogênea de Huizinga</li>
+                                <li>Propõe categorias que permitem analisar diferentes tipos de jogos e suas funções sociais</li>
+                                <li>Estabelece um espectro entre jogos livres (paidia) e jogos regrados (ludus)</li>
+                                <li>Fornece ferramentas conceituais para entender como os jogos refletem e influenciam a sociedade</li>
+                            </ul>
+                        </div>
+                        <div class="obra-classificacao">
+                            <h3>Classificação dos Jogos</h3>
+                            <div class="classificacao-grid">
+                                <div class="classificacao-item">
+                                    <h4>Agôn (Competição)</h4>
+                                    <p>Jogos competitivos onde os participantes confrontam-se em igualdade de oportunidades</p>
+                                    <p><em>Exemplos: xadrez, esportes</em></p>
+                                </div>
+                                <div class="classificacao-item">
+                                    <h4>Alea (Sorte)</h4>
+                                    <p>Jogos baseados no acaso, onde o jogador não tem controle sobre o resultado</p>
+                                    <p><em>Exemplos: roleta, loteria</em></p>
+                                </div>
+                                <div class="classificacao-item">
+                                    <h4>Mimicry (Simulação)</h4>
+                                    <p>Jogos de imitação e faz-de-conta, onde se assume temporariamente uma personalidade fictícia</p>
+                                    <p><em>Exemplos: teatro, RPG</em></p>
+                                </div>
+                                <div class="classificacao-item">
+                                    <h4>Ilinx (Vertigem)</h4>
+                                    <p>Jogos que buscam destruir momentaneamente a estabilidade da percepção</p>
+                                    <p><em>Exemplos: montanha-russa, rodopiar</em></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="obra-conexoes">
+                            <h3>Conexões com outras obras</h3>
+                            <p>Esta obra é uma resposta direta a "Homo Ludens" de Huizinga e influenciou conceitos presentes em "Half-Real" de Jesper Juul.</p>
+                            <a href="mapa.html#jogos-homens" class="btn small">Ver no mapa de relações</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Half-Real -->
+                <div class="obra-item" id="half-real">
+                    <div class="obra-header">
+                        <h2>Half-Real: Video Games Between Real Rules and Fictional Worlds</h2>
+                        <div class="obra-meta">
+                            <span class="autor">Jesper Juul</span>
+                            <span class="ano">2005</span>
+                            <span class="idioma">Inglês</span>
+                        </div>
+                        <div class="obra-categorias">
+                            <span class="categoria">Fundamentos Teóricos</span>
+                            <span class="categoria">Design e Desenvolvimento</span>
+                        </div>
+                    </div>
+                    <div class="obra-content">
+                        <div class="obra-resumo">
+                            <h3>Resumo</h3>
+                            <p>Publicado em 2005, "Half-Real" explora os videogames como combinações de conjuntos de regras formais e ficção informal. O título deriva da afirmação de que, enquanto a ficção que envolve um jogo (como xadrez) é aparentemente arbitrária e importa dentro de um círculo imaginário de jogo, as regras em si exercem poder sobre o jogador e a realidade - qualquer jogo é "meio-real" (half-real). Para Juul, essa interação, mais do que qualquer uma das partes isoladamente, é um aspecto intrigante dos estudos de videogames.</p>
+                            <p>O livro examina a tensão em constante evolução entre regras e ficção nos videogames, propondo um "modelo clássico de jogo" e explorando como os jogos afetam o jogador e o mundo em geral, levando a discussões interessantes sobre tempo e espaço nos jogos.</p>
+                        </div>
+                        <div class="obra-estrutura">
+                            <h3>Estrutura do Livro</h3>
+                            <div class="estrutura-list">
+                                <div class="estrutura-item">
+                                    <h4>Introdução</h4>
+                                    <p>Apresenta a ideia principal de que os jogos são compostos de regras reais e mundos ficcionais, e discute o estado dos estudos de videogames.</p>
+                                </div>
+                                <div class="estrutura-item">
+                                    <h4>Videogames e o Modelo Clássico de Jogo</h4>
+                                    <p>Define o que é um jogo, diferencia jogos de não-jogos e casos limítrofes, e discute a natureza transmidiática dos jogos.</p>
+                                </div>
+                                <div class="estrutura-item">
+                                    <h4>Regras</h4>
+                                    <p>Explora o que são regras, como funcionam nos jogos e como se combinam para formar desafios. Introduz conceitos importantes como jogos de progressão versus jogos de emergência, e discute o conceito de gameplay.</p>
+                                </div>
+                                <div class="estrutura-item">
+                                    <h4>Ficção</h4>
+                                    <p>Examina os mundos ficcionais dos videogames, como são incompletos e como os jogadores preenchem as lacunas.</p>
+                                </div>
+                                <div class="estrutura-item">
+                                    <h4>Regras e Ficção</h4>
+                                    <p>Analisa a interação entre regras e ficção nos videogames.</p>
+                                </div>
+                                <div class="estrutura-item">
+                                    <h4>Conclusões</h4>
+                                    <p>Sintetiza as ideias apresentadas e discute suas implicações para o estudo dos videogames.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="obra-contribuicoes">
+                            <h3>Contribuições para Game Studies</h3>
+                            <ul>
+                                <li>Propõe uma teoria coerente que integra regras e ficção nos videogames</li>
+                                <li>Introduz conceitos importantes como jogos de emergência versus jogos de progressão</li>
+                                <li>Oferece um modelo para analisar a interação entre regras e ficção</li>
+                                <li>Contribui para o debate entre ludologia e narratologia nos estudos de jogos</li>
+                            </ul>
+                        </div>
+                        <div class="obra-conexoes">
+                            <h3>Conexões com outras obras</h3>
+                            <p>Esta obra referencia tanto "Homo Ludens" de Huizinga quanto "Os Jogos e os Homens" de Caillois, e tem uma relação contemporânea com "Persuasive Games" de Bogost.</p>
+                            <a href="mapa.html#half-real" class="btn small">Ver no mapa de relações</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Persuasive Games -->
+                <div class="obra-item" id="persuasive-games">
+                    <div class="obra-header">
+                        <h2>Persuasive Games: The Expressive Power of Videogames</h2>
+                        <div class="obra-meta">
+                            <span class="autor">Ian Bogost</span>
+                            <span class="ano">2007</span>
+                            <span class="idioma">Inglês</span>
+                        </div>
+                        <div class="obra-categorias">
+                            <span class="categoria">Estudos Críticos</span>
+                            <span class="categoria">Aplicações Práticas</span>
+                        </div>
+                    </div>
+                    <div class="obra-content">
+                        <div class="obra-resumo">
+                            <h3>Resumo</h3>
+                            <p>Publicado em 2007, "Persuasive Games" examina como os videogames constroem argumentos e influenciam os jogadores. Bogost analisa a função única da retórica no software em geral e nos videogames em particular, baseando-se na história de 2.500 anos da retórica, o estudo da expressão persuasiva.</p>
+                            <p>O autor argumenta que os videogames, graças ao seu modo básico de representação procedimental (representações e interações baseadas em regras), abrem um novo domínio para a persuasão, realizando uma nova forma de retórica que ele chama de "retórica procedimental". Esta é uma forma de retórica vinculada às principais affordances dos computadores: executar processos e realizar manipulação simbólica baseada em regras.</p>
+                            <p>Bogost defende que os videogames têm um poder persuasivo único que vai além de outras formas de persuasão computacional. Eles não apenas podem apoiar posições sociais e culturais existentes, mas também podem interromper e mudar essas posições, levando a mudanças sociais potencialmente significativas a longo prazo.</p>
+                        </div>
+                        <div class="obra-estrutura">
+                            <h3>Estrutura do Livro</h3>
+                            <div class="estrutura-list">
+                                <div class="estrutura-item">
+                                    <h4>Política</h4>
+                                    <p>Explora como os jogos podem representar processos políticos, enquadramentos ideológicos, e questões de história e democracia.</p>
+                                </div>
+                                <div class="estrutura-item">
+                                    <h4>Publicidade</h4>
+                                    <p>Analisa a lógica da publicidade em jogos, licenciamento e product placement, e advergames (jogos criados especificamente para publicidade).</p>
+                                </div>
+                                <div class="estrutura-item">
+                                    <h4>Aprendizagem</h4>
+                                    <p>Discute a alfabetização procedimental, valores e aspirações, exercício, e os propósitos da persuasão no contexto educacional.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="obra-contribuicoes">
+                            <h3>Contribuições para Game Studies</h3>
+                            <ul>
+                                <li>Introduz o conceito de "retórica procedimental" como uma nova forma de persuasão única aos meios computacionais</li>
+                                <li>Analisa como os jogos podem ser usados para argumentação em diversos contextos</li>
+                                <li>Expande a compreensão dos jogos além do entretenimento, como ferramentas para mudança social e política</li>
+                                <li>Estabelece uma ponte entre a retórica clássica e os meios digitais contemporâneos</li>
+                            </ul>
+                        </div>
+                        <div class="obra-conexoes">
+                            <h3>Conexões com outras obras</h3>
+                            <p>Esta obra tem uma relação contemporânea com "Half-Real" de Juul e expande conceitos presentes em "Homo Ludens" de Huizinga para além do entretenimento.</p>
+                            <a href="mapa.html#persuasive-games" class="btn small">Ver no mapa de relações</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Game Studies Hub</h2>
+                    <p>Portal de referência para estudos de jogos</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Navegação</h3>
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="categorias.html">Categorias</a></li>
+                        <li><a href="obras.html">Obras Fundamentais</a></li>
+                        <li><a href="periodicos.html">Periódicos</a></li>
+                        <li><a href="mapa.html">Mapa de Relações</a></li>
+                        <li><a href="recursos.html">Recursos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contato</h3>
+                    <p>Para sugestões, correções ou contribuições, entre em contato conosco.</p>
+                    <a href="mailto:contato@gamestudieshub.com.br" class="btn small">Enviar e-mail</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Game Studies Hub. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/obras.js"></script>
+</body>
+</html>

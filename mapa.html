@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa de Relações - Game Studies Hub</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/mapa.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Game Studies Hub</h1>
+                <p>Portal de referência para estudos de jogos</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="categorias.html">Categorias</a></li>
+                    <li><a href="obras.html">Obras Fundamentais</a></li>
+                    <li><a href="periodicos.html">Periódicos</a></li>
+                    <li><a href="mapa.html" class="active">Mapa de Relações</a></li>
+                    <li><a href="recursos.html">Recursos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Mapa de Relações</h1>
+            <p>Explore as conexões entre as principais obras e conceitos em Game Studies</p>
+        </div>
+    </section>
+
+    <section class="map-section">
+        <div class="container">
+            <div class="map-controls">
+                <div class="filter-group">
+                    <label for="filter-type">Filtrar por tipo de conexão:</label>
+                    <select id="filter-type">
+                        <option value="all">Todas as conexões</option>
+                        <option value="influenciou">Influência</option>
+                        <option value="conceitual">Conceitual</option>
+                        <option value="resposta">Resposta/Crítica</option>
+                        <option value="contemporaneo">Contemporâneos</option>
+                        <option value="referencia">Referência</option>
+                    </select>
+                </div>
+                <div class="view-controls">
+                    <button id="zoom-in" class="btn small"><i class="fas fa-search-plus"></i></button>
+                    <button id="zoom-out" class="btn small"><i class="fas fa-search-minus"></i></button>
+                    <button id="reset-view" class="btn small">Resetar</button>
+                </div>
+            </div>
+            
+            <div class="map-container" id="graph-container">
+                <!-- O gráfico D3.js será renderizado aqui -->
+            </div>
+            
+            <div class="map-legend">
+                <h3>Legenda</h3>
+                <ul>
+                    <li><span class="legend-color" style="background-color: #4a6fa5;"></span> Obras Fundamentais</li>
+                    <li><span class="legend-line" style="background-color: #f67280;"></span> Influência Direta</li>
+                    <li><span class="legend-line" style="background-color: #6c5b7b;"></span> Conexão Conceitual</li>
+                    <li><span class="legend-line" style="background-color: #c06c84;"></span> Resposta/Crítica</li>
+                    <li><span class="legend-line" style="background-color: #355c7d;"></span> Contemporâneos</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="map-details">
+        <div class="container">
+            <h2>Sobre o Mapa de Relações</h2>
+            <p>Este mapa interativo visualiza as conexões entre as principais obras no campo de Game Studies, permitindo explorar como diferentes autores e teorias se influenciaram mutuamente ao longo do tempo.</p>
+            
+            <div class="details-grid">
+                <div class="details-item">
+                    <h3>Tipos de Conexões</h3>
+                    <p>As linhas entre as obras representam diferentes tipos de relações:</p>
+                    <ul>
+                        <li><strong>Influência:</strong> Quando uma obra teve impacto direto sobre outra</li>
+                        <li><strong>Conceitual:</strong> Quando obras compartilham conceitos ou abordagens similares</li>
+                        <li><strong>Resposta/Crítica:</strong> Quando uma obra foi criada como resposta ou crítica a outra</li>
+                        <li><strong>Contemporâneos:</strong> Obras do mesmo período com perspectivas complementares</li>
+                    </ul>
+                </div>
+                
+                <div class="details-item">
+                    <h3>Como Usar</h3>
+                    <ul>
+                        <li>Clique em uma obra para destacar suas conexões</li>
+                        <li>Use o filtro para visualizar tipos específicos de conexões</li>
+                        <li>Arraste os nós para reorganizar o mapa</li>
+                        <li>Use os controles de zoom para aproximar ou afastar</li>
+                        <li>Passe o mouse sobre as conexões para ver detalhes</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="timeline">
+                <h3>Linha do Tempo das Obras Principais</h3>
+                <div class="timeline-container">
+                    <div class="timeline-item">
+                        <div class="timeline-date">1938</div>
+                        <div class="timeline-content">
+                            <h4>Homo Ludens</h4>
+                            <p>Johan Huizinga</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">1958</div>
+                        <div class="timeline-content">
+                            <h4>Os Jogos e os Homens</h4>
+                            <p>Roger Caillois</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2005</div>
+                        <div class="timeline-content">
+                            <h4>Half-Real</h4>
+                            <p>Jesper Juul</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2007</div>
+                        <div class="timeline-content">
+                            <h4>Persuasive Games</h4>
+                            <p>Ian Bogost</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Game Studies Hub</h2>
+                    <p>Portal de referência para estudos de jogos</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Navegação</h3>
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="categorias.html">Categorias</a></li>
+                        <li><a href="obras.html">Obras Fundamentais</a></li>
+                        <li><a href="periodicos.html">Periódicos</a></li>
+                        <li><a href="mapa.html">Mapa de Relações</a></li>
+                        <li><a href="recursos.html">Recursos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contato</h3>
+                    <p>Para sugestões, correções ou contribuições, entre em contato conosco.</p>
+                    <a href="mailto:contato@gamestudieshub.com.br" class="btn small">Enviar e-mail</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Game Studies Hub. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/mapa.js"></script>
+</body>
+</html>
